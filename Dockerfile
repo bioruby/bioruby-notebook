@@ -1,5 +1,5 @@
 FROM ubuntu:15.10
-RUN apt update; apt install -y git ruby gcc ruby-dev rake make wget python
+RUN apt update; apt install -y git ruby gcc ruby-dev rake make wget python python-dev
 RUN cd; git clone git://github.com/bioruby/bioruby; cd bioruby; gem build bioruby.gemspec; gem install bioruby-*.gem pry; cd
 
 # jupyter, sklearn
