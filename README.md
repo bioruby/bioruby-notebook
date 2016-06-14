@@ -11,7 +11,7 @@
 
 # Usage
 ## Linux
-Open ```localhost:443``` with your favorite web browser.
+Open `localhost:443` with your favorite web browser.
 
 ## Mac or Windows
-Open ```192.168.99.100:443`` with your favorite web browser.
+Open `192.168.99.100:443` with your favorite web browser.
