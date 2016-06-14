@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:15.10
 RUN apt update; apt install -y git ruby gcc ruby-dev rake make wget python python-dev g++
 RUN cd; git clone git://github.com/bioruby/bioruby; cd bioruby; gem build bioruby.gemspec; gem install ./bio-1.5.1.20160608.gem
 
